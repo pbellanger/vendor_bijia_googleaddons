@@ -191,3 +191,40 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_OWNER := google
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+# CalendarGoogleStub : 0.1 (stub)
+LOCAL_MODULE := CalendarGoogleStub
+LOCAL_SRC_FILES := com.google.android.calendar.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := Calendar CalendarGooglePrebuilt
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_OWNER := google
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+# Music2Stub : 0.1 (stub)
+LOCAL_MODULE := Music2Stub
+LOCAL_SRC_FILES := com.google.android.music.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := Music Music2
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_OWNER := google
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+# PlayGamesStub : 0.1 (stub)
+LOCAL_MODULE := PlayGamesStub
+LOCAL_SRC_FILES := com.google.android.play.games.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := PlayGames
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_OWNER := google
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
