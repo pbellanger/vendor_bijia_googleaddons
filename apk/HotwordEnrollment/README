@@ -1,0 +1,4 @@
+copy the ./all/ directory and its sub-directories to the following location:
+$(ANDROID_BUILD_TOP)/vendor/opengapps/.
+
+UPDATE: this does not fix the lack of "Ok google" hotword when the screen is off and the phone is charging :(
