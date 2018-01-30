@@ -1,4 +1,0 @@
-Overwrite the file located in:
-   $ANDROID_BUILD_TOP/vendor/opengapps/sources/arm/app/com.google.android.googlecamera/25/nodpi/41025813.apk
-with the file:
-   ./arm/app/com.google.android.googlecamera/19/nodpi/27010130.apk
